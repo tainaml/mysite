@@ -13,10 +13,22 @@ li {
 
 }
 
+li:link {
+    color: white;
+}
+
+.nv :hover {
+    color: #FF7F00
+}
+
 .fab {
     color: white;
     margin-left: 4%;
     font-size: 140%;
+}
+
+.xfab :hover {
+    color:  #FF7F00
 }
 
 .container {
@@ -32,6 +44,14 @@ li {
     font-size: 200%;
 }
 
+
+a:link { 
+    color: white;
+ } 
+ 
+ nv:link {
+     color: white;
+ }
 
 .banner {
     margin-top: 30%;
@@ -67,12 +87,12 @@ ul {
     color: #CDCDC1
 }
 
-.nv :hover {
-    color: red;
-}
-
 .bannersubtitleisolatedword {
     color: white;
+}
+
+.element.style {
+    color: red;
 }
 
 .nvnames{
