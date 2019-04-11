@@ -22,6 +22,36 @@ li {
     text-decoration: none;
 }
 
+.aboutfirst {
+    color: white;
+
+}
+
+.profiletitle{
+    font-family: 'opensans-bold', sans-serif;  
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    color: white;
+    margin-top: 6%;
+
+}
+
+.aboutmetext {
+    color: white;
+}
+
+.profilepicture{
+    position: relative;
+    width: 200px;
+    height: 220px;
+    border-radius: 100%;
+    margin-top: 28%;
+    margin-left: 16%;
+}
+
+
 .fab {
     color: white;
     margin-left: 1.6%;
