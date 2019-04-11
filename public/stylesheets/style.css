@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
     padding-top: 0px;
 }
@@ -17,31 +23,61 @@ li:link {
     color: white;
 }
 
+
+.nv {
+    margin-left: 14%;
+}
+
 .nv :hover {
-    color: #FF7F00
+    color: #FF7F00;
+    text-decoration:none;
+}
+
+.fabhover :hover {
+    color: #FF7F00;
 }
 
 .fab {
     color: white;
     margin-left: 4%;
-    font-size: 140%;
+    font-size: 180%;
 }
 
 .xfab :hover {
     color:  #FF7F00
 }
 
-.container {
+body  {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-image: url('/images/teste.jpg');
     background-size: 100%;
+
 }
 
 .arrow {
-    margin-left: 42%;
-    margin-top: 20%;
+    margin-left: 38%;
+    margin-top: 24%;
     font-size: 200%;
+}
+
+.mainimage{
+    width: 100%;
+    height: 800px;
+    background: url(images/teste.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.secondimage {
+    width: 100vW;
+    height: 800px;
+    background-color: #2B2B2B;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+
 }
 
 
@@ -74,7 +110,7 @@ ul {
     font-size: 92px;
     text-align: center;
     margin-top: -20%;
-    margin-right: -0%;
+    margin-right: -2%;
     font-weight: bold;
     color: white;
 }
@@ -83,7 +119,7 @@ ul {
     font-family: 'Libre Baskerville';
     font-size: 120%;
     width: 52%;
-    margin-left: 26%;
+    margin-left: 30%;
     color: #CDCDC1
 }
 
@@ -102,6 +138,7 @@ ul {
     font-style: normal;
     font-size: 12px;
     line-height: 32px;
+    
 }
 
 
