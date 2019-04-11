@@ -24,7 +24,20 @@ li {
 
 .aboutfirst {
     color: white;
+    font-size: 18px;
+    margin-top: 8%;
+    font-family: 'opensans-bold', sans-serif;
+    line-height: 22px;
+    font-weight: bold;
+    font-style: normal;
+}
 
+.address {
+    font-size: 14px;
+}
+
+.contact {
+    color: white;
 }
 
 .profiletitle{
@@ -38,19 +51,25 @@ li {
 
 }
 
+
+.containerabout {
+    width: 2%;
+}
+
 .aboutmetext {
     color: white;
+    padding-right: 5%;
+    padding-right: 10%; 
 }
 
 .profilepicture{
     position: relative;
     width: 200px;
     height: 220px;
-    border-radius: 100%;
+    border-radius: 200%;
     margin-top: 28%;
-    margin-left: 16%;
+    margin-left: 30%;
 }
-
 
 .fab {
     color: white;
