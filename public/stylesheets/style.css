@@ -1,8 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
 }
-
 
 body {
     padding-top: 0px;
@@ -16,26 +14,23 @@ li {
     font-family: 'opensans-bold', sans-serif;
     font-weight: 600;
     font-style: normal;
-
 }
 
-li:link {
-    color: white;
-}
-
-
-.nv {
-    margin-left: 14%;
-}
 
 .nv :hover {
     color: #FF7F00;
     text-decoration:none;
 }
 
+.fabhover :link {
+    color: white;
+}
+
 .fabhover :hover {
     color: #FF7F00;
 }
+
+
 
 .fab {
     color: white;
