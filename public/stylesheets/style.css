@@ -12,26 +12,15 @@ li {
     padding: 8px 13px;
     line-height: 32px;
     font-size: 12px;
-    font-family: 'opensans-bold', sans-serif;
+    font-family: 'opensans-bold', sans-serif;  
     font-weight: 600;
     font-style: normal;
 }
 
-
-.nv :hover {
-    color: #FF7F00;
-    text-decoration:none;
-}
-
-.fabhover :link {
-    color: white;
-}
-
 .fabhover :hover {
     color: #FF7F00;
+    text-decoration: none;
 }
-
-
 
 .fab {
     color: white;
@@ -51,9 +40,13 @@ body  {
 
 }
 
+.line {
+    margin-left: -22%;
+}
+
 .arrow {
     margin-left: 38%;
-    margin-top: 24%;
+    margin-top: 20%;
     font-size: 200%;
 }
 
@@ -81,9 +74,25 @@ a:link {
     color: white;
  } 
  
- nv:link {
-     color: white;
+
+ /* Itens da navbar */
+
+ .nv:link {
+     text-decoration: none;
  }
+
+ .nv:hover {
+    color: #FF7F00;
+    text-decoration: none;
+}
+
+.nv {
+    color: white;
+}
+ 
+/* Itens da navbar */
+
+
 
 .banner {
     margin-top: 30%;
@@ -143,6 +152,9 @@ ul {
     line-height: 2.4;
     color:#CDCDC1;
 }
+
+
+
 
 
 
