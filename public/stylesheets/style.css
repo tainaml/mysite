@@ -1,3 +1,6 @@
+
+/* Geral*/
+
 *{
     margin: 0;
 }
@@ -17,21 +20,157 @@ li {
     font-style: normal;
 }
 
-.fabhover :hover {
+
+.fab {
+    color: white;
+    margin-left: 1.6%;
+    font-size: 180%;
+}
+
+.xfab :hover {
+    color:  #FF7F00
+}
+
+body  {
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/teste.jpg');
+    background-size: 100%;
+}
+
+a:link { 
+    color: white;
+ } 
+
+ ul {
+    margin-left: 20%;
+    display: relative;
+}
+
+
+
+
+ /* Itens da navbar */
+
+ .nv:link {
+    text-decoration: none;
+}
+
+.nv:hover {
+   color: #FF7F00;
+   text-decoration: none;
+}
+
+.banner {
+   margin-top: 30%;
+}
+
+
+
+
+
+
+
+
+/* First parallax image */
+
+.mainimage{
+    width: 100%;
+    height: 800px;
+    background: url(images/teste.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nvnames{
+    font-size: 120%;
+    font-family: 'Open-Sans', 'Sans-Serif';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 32px;
+}
+
+.nv {
+    color: white;
+}
+
+.bannertitle {
+    font-size: 92px;
+    text-align: center;
+    margin-top: -20%;
+    margin-right: -2%;
+    font-weight: bold;
+    color: white;
+}
+
+.bannersubtitle {
+    font-family: 'Libre Baskerville';
+    font-size: 120%;
+    width: 52%;
+    margin-left: 30%;
+    color: #CDCDC1
+}
+
+
+.bannersubtitleisolatedword {
+    color: white;
+}
+
+.sndlinesubtitle{
+    margin-left: 24%;
+    line-height: 2.4;
+    color:#CDCDC1;
+}
+
+.bannerlasttext {
+    margin-left: 14%;
+    color: #CDCDC1;
+}
+
+.smoothscroll {
+    color: white;
+ }
+
+ .fabhover :hover {
     color: #FF7F00;
     text-decoration: none;
 }
+
+.arrow {
+    margin-left: 38%;
+    margin-top: 16%;
+    font-size: 200%;
+}
+
+
+
+/* .line {
+    margin-left: -22%;  
+    }
+ */
+
+
+
+/*END OF First parallax image */
+
+
+
+
+
+/* Second parallax image */
+
 
 .button {
     margin-top: 20px;
     background: #444;
     font: 16px/30px 'opensans-bold', sans-serif;
-   display: inline-block;
-     text-decoration: none;
+    display: inline-block;
+    text-decoration: none;
     letter-spacing: 0;
     color: #fff;
-     padding: 12px 20px;
-     margin-bottom: 18px;
+    padding: 12px 20px;
+    margin-bottom: 18px;
     border: none;
     cursor: pointer;
     height: auto;
@@ -83,8 +222,6 @@ li {
     font-family: 'Open-Sans-Regular', 'Sans-Serif';
     line-height: 26px;
     color: #7a7a7a;
-    /* padding-right: 5%;
-    padding-right: 10%;  */
     width: 40%;
     text-align: justify;
     word-spacing: 0px;
@@ -114,47 +251,10 @@ li {
     font-family: 'Open-Sans-Regular', 'Sans-Serif';
     line-height: 22px;
     color: #7a7a7a;
-    /* padding-right: 5%;
-    padding-right: 10%;  */
     width: 40%;
     text-align: justify;
     margin-left: 14px;
     word-spacing: 0px;
-}
-
-.fab {
-    color: white;
-    margin-left: 1.6%;
-    font-size: 180%;
-}
-
-.xfab :hover {
-    color:  #FF7F00
-}
-
-body  {
-    width: 100%;
-    height: 100%;
-    background-image: url('/images/teste.jpg');
-    background-size: 100%;
-}
-
-.line {
-    margin-left: -22%;
-}
-
-.arrow {
-    margin-left: 38%;
-    margin-top: 16%;
-    font-size: 200%;
-}
-
-.mainimage{
-    width: 100%;
-    height: 800px;
-    background: url(images/teste.jpg) no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 .secondimage {
@@ -166,91 +266,6 @@ body  {
     margin: 0;
 
 }
-
-
-a:link { 
-    color: white;
- } 
- 
-
- /* Itens da navbar */
-
- .nv:link {
-     text-decoration: none;
- }
-
- .nv:hover {
-    color: #FF7F00;
-    text-decoration: none;
-}
-
-.nv {
-    color: white;
-}
- 
-/* Itens da navbar */
-
-
-
-.banner {
-    margin-top: 30%;
-}
-.smoothscroll {
-   color: white;
-}
-
-.bannerlasttext {
-    margin-left: 14%;
-    color: #CDCDC1;
-}
-
-ul {
-    margin-left: 20%;
-    display: relative;
-}
-
-.bannertitle {
-    font-size: 92px;
-    text-align: center;
-    margin-top: -20%;
-    margin-right: -2%;
-    font-weight: bold;
-    color: white;
-}
-
-.bannersubtitle {
-    font-family: 'Libre Baskerville';
-    font-size: 120%;
-    width: 52%;
-    margin-left: 30%;
-    color: #CDCDC1
-}
-
-.bannersubtitleisolatedword {
-    color: white;
-}
-
-.element.style {
-    color: red;
-}
-
-.nvnames{
-    font-size: 120%;
-    font-family: 'Open-Sans', 'Sans-Serif';
-    font-weight: 400;
-    font-style: normal;
-    font-size: 12px;
-    line-height: 32px;
-    
-}
-
-
-.sndlinesubtitle{
-    margin-left: 24%;
-    line-height: 2.4;
-    color:#CDCDC1;
-}
-
 
 
 
