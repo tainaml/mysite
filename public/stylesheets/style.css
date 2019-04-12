@@ -22,7 +22,35 @@ li {
     text-decoration: none;
 }
 
+.button {
+    margin-top: 20px;
+    background: #444;
+    font: 16px/30px 'opensans-bold', sans-serif;
+   display: inline-block;
+     text-decoration: none;
+    letter-spacing: 0;
+    color: #fff;
+     padding: 12px 20px;
+     margin-bottom: 18px;
+    border: none;
+    cursor: pointer;
+    height: auto;
+    margin-right: 40%;
+    margin-left: -40%
+}
+
+.button {
+    background:#444;
+}
+
+.button:hover {
+
+    background: white;
+    color: #0D0D0D;
+}
+
 .aboutfirst {
+    margin-left: 0.1%;
     color: white;
     font-size: 18px;
     margin-top: 8%;
@@ -30,10 +58,6 @@ li {
     line-height: 22px;
     font-weight: bold;
     font-style: normal;
-}
-
-.address {
-    font-size: 14px;
 }
 
 .contact {
@@ -76,7 +100,7 @@ li {
 }
 
 .contactdetails{
-    margin-left: 1%;
+    margin-left: 1.2%;
     color: white;
     font-size: 18px;
     margin-top: 2%;
@@ -88,7 +112,7 @@ li {
 
 .address {
     font-family: 'Open-Sans-Regular', 'Sans-Serif';
-    line-height: 26px;
+    line-height: 22px;
     color: #7a7a7a;
     /* padding-right: 5%;
     padding-right: 10%;  */
