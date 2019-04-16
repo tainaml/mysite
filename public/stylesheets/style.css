@@ -1,14 +1,18 @@
 
 /* Geral*/
 
-*{
+/* *{
     margin: 0;
-}
+} */
 
-body {
-    padding-top: 0px;
-}
 
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 li {
     display: inline;
@@ -19,7 +23,6 @@ li {
     font-weight: 600;
     font-style: normal;
 }
-
 
 .fab {
     color: white;
@@ -36,6 +39,7 @@ body  {
     height: 100%;
     background-image: url('/images/teste.jpg');
     background-size: 100%;
+    overflow-x: hidden;
 }
 
 a:link { 
@@ -46,9 +50,6 @@ a:link {
     margin-left: 20%;
     display: relative;
 }
-
-
-
 
  /* Itens da navbar */
 
@@ -65,17 +66,10 @@ a:link {
    margin-top: 30%;
 }
 
-
-
-
-
-
-
-
 /* First parallax image */
 
 .mainimage{
-    width: 100%;
+    width: 160%;
     height: 800px;
     background: url(images/teste.jpg) no-repeat;
     background-size: cover;
@@ -96,12 +90,12 @@ a:link {
 }
 
 .bannertitle {
-    font-size: 92px;
     text-align: center;
     margin-top: -20%;
     margin-right: -2%;
     font-weight: bold;
     color: white;
+    font-size: 90px;
 }
 
 .bannersubtitle {
@@ -266,6 +260,40 @@ a:link {
     margin: 0;
 
 }
+
+
+/* END OF Second parallax image */
+
+
+
+
+
+/* Third parallax image */
+
+.thirdimage {
+    width: 100vW;
+    height: 800px;
+    background-color: #2B2B2B;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* END OF Third parallax image */
+
 
 
 
