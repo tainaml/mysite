@@ -14,7 +14,7 @@ app.get('/about', function(req, res) {
 });
 
 app.listen(3000);
-console.log('3000 is the magic port');  //adicionando a porta
+console.log('3100 is the magic port');  //adicionando a porta
 
 app.set('view engine', 'ejs')    // Setamos que a engine será o ejs
 

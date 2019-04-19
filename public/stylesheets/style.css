@@ -7,11 +7,14 @@
 
 
 .container {
-    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    /* width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto; */
 }
 
 li {
@@ -35,11 +38,9 @@ li {
 }
 
 body  {
-    width: 100%;
-    height: 100%;
     background-image: url('/images/teste.jpg');
     background-size: 100%;
-    overflow-x: hidden;
+    padding: 0%;
 }
 
 a:link { 
@@ -69,11 +70,10 @@ a:link {
 /* First parallax image */
 
 .mainimage{
-    width: 160%;
-    height: 800px;
     background: url(images/teste.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 .nvnames{
@@ -135,6 +135,10 @@ a:link {
     margin-left: 38%;
     margin-top: 16%;
     font-size: 200%;
+}
+
+.line {
+    margin-left: -20%;
 }
 
 
@@ -224,7 +228,7 @@ a:link {
 .profilepicture{
     position: relative;
     width: 180px;
-    height: 200px;
+    height: 170px;
     border-radius: 200%;
     margin-top: 28%;
     margin-left: 50%;
@@ -271,13 +275,12 @@ a:link {
 /* Third parallax image */
 
 .thirdimage {
-    width: 100vW;
-    height: 800px;
-    background-color: #2B2B2B;
+    width: 100%;
+    height: 500px;
+    background-color: white;
     background-size: cover;
     background-attachment: fixed;
-    margin: 0;
-
+    /* margin: 0; */
 }
 
 
